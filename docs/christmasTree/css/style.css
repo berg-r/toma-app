@@ -1,0 +1,149 @@
+.tree {
+margin: 0 auto;
+padding-top: 20px;
+position: relative;
+width: 280px;
+}
+.leaf,
+.leaf:before,
+.leaf:after {
+height: 0;
+width: 0;
+}
+.leaf {
+border-bottom: 170px solid #1e8d44;
+border-left: 145px solid transparent;
+border-right: 145px solid transparent;
+margin: 100px auto 0;
+}
+.leaf:before,
+.leaf:after {
+content: "";
+display: block;
+position: absolute;
+}
+.leaf:before {
+border-bottom: 130px solid #1e8d44;
+border-left: 100px solid transparent;
+border-right: 100px solid transparent;
+left: 45px;
+top: 34px;
+}
+.leaf:after {
+border-bottom: 150px solid #1e8d44;
+border-left: 130px solid transparent;
+border-right: 130px solid transparent;
+left: 15px;
+top: 85px;
+}
+.stem {
+background-color: #ac6b3f;
+height: 60px;
+margin: 0 auto;
+width: 30px;
+}
+.star,
+.star:after,
+.star:before {
+border-bottom: 20px yellow solid;
+border-left: 30px transparent solid;
+border-right: 30px transparent solid;
+height: 0;
+width: 0;
+}
+.star {
+left: 115px;
+position: absolute;
+top: 30px;
+transform: rotate(35deg);
+}
+.star:after {
+content: "";
+left: -31px;
+position: absolute;
+transform: rotate(-71deg);
+}
+.star:before {
+content: "";
+left: -31px;
+position: absolute;
+transform: rotate(71deg);
+}
+.ornamentWrap {
+height: 100%;
+position: absolute;
+top: 0;
+width: 100%;
+}
+.ornamentWrap .ornament {
+position: absolute;
+}
+.ornamentWrap .ornament:nth-of-type(1) {
+left: 95px;
+top: 78px;
+}
+.ornamentWrap .ornament:nth-of-type(2) {
+left: 173px;
+top: 101px;
+}
+.ornamentWrap .ornament:nth-of-type(3) {
+left: 60px;
+top: 139px;
+}
+.ornamentWrap .ornament:nth-of-type(4) {
+left: 132px;
+top: 174px;
+}
+.ornamentWrap .ornament:nth-of-type(5) {
+left: 43px;
+top: 215px;
+}
+.ornamentWrap .ornament:nth-of-type(6) {
+left: 100px;
+top: 234px;
+}
+.ornamentWrap .ornament:nth-of-type(7) {
+left: 200px;
+top: 240px;
+}
+.ornament.move {
+opacity: .5;
+}
+.ornamentA {
+background-color: red;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+.ornamentB {
+background-color: yellow;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+}
+.ornamentC {
+background-color: #50cafb;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+}
+.ornamentD {
+background-color: #f775d0;
+border-radius: 50%;
+height: 50px;
+width: 50px;
+}
+.ornamentsBox {
+-webkit-align-items: center;
+-webkit-justify-content: space-around;
+align-items: center;
+background-color: #fbe1e1;
+border-radius: 5px;
+border: #da3e3e 1px solid;
+display: flex;
+display: -webkit-flex;
+justify-content: space-around;
+margin: 20px auto;
+padding: 10px;
+width: 90%;
+}

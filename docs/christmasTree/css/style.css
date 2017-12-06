@@ -1,7 +1,5 @@
 .tree {
-margin: 0 auto;
 padding-top: 20px;
-position: relative;
 width: 280px;
 }
 .leaf,
@@ -14,7 +12,7 @@ width: 0;
 border-bottom: 170px solid #1e8d44;
 border-left: 145px solid transparent;
 border-right: 145px solid transparent;
-margin: 100px auto 0;
+padding-top: 100px;
 }
 .leaf:before,
 .leaf:after {
@@ -70,41 +68,9 @@ position: absolute;
 transform: rotate(71deg);
 }
 .ornamentWrap {
-height: 100%;
-position: absolute;
-top: 0;
-width: 100%;
 }
 .ornamentWrap .ornament {
 position: absolute;
-}
-.ornamentWrap .ornament:nth-of-type(1) {
-left: 95px;
-top: 78px;
-}
-.ornamentWrap .ornament:nth-of-type(2) {
-left: 173px;
-top: 101px;
-}
-.ornamentWrap .ornament:nth-of-type(3) {
-left: 60px;
-top: 139px;
-}
-.ornamentWrap .ornament:nth-of-type(4) {
-left: 132px;
-top: 174px;
-}
-.ornamentWrap .ornament:nth-of-type(5) {
-left: 43px;
-top: 215px;
-}
-.ornamentWrap .ornament:nth-of-type(6) {
-left: 100px;
-top: 234px;
-}
-.ornamentWrap .ornament:nth-of-type(7) {
-left: 200px;
-top: 240px;
 }
 .ornament.move {
 opacity: .5;
